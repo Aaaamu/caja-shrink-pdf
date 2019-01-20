@@ -1,0 +1,17 @@
+[Desktop Entry]
+Type=Action
+Description=secure delete with wipe
+Description[de]=Mit wipe sicher löschen
+ToolbarLabel=secure delete
+ToolbarLabel[de]=Sicher löschen
+Name=secure delete
+Name[de]=Sicher löschen
+Profiles=profile-zero;
+
+Name[de_CH]=secure-delete
+
+[X-Action-Profile profile-zero]
+OnlyShowIn=MATE;
+Exec=/usr/bin/wipe -rf %F
+Name=Default profile
+Name[de]=Vorgabeprofil

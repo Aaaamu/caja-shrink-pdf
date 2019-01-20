@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Action
+ToolbarLabel[de_CH]=compress PDF
+ToolbarLabel[de]=compress PDF
+Name[de_CH]=compress-pdf
+Name[de]=compress-pdf
+Profiles=profile-zero;
+Description[de_CH]=\s
+Description[de]=\s
+
+[X-Action-Profile profile-zero]
+MimeTypes=application/pdf;
+Exec=/home/mu/.config/caja/scripts/compress-pdf %f
+Name[de_CH]=Vorgabeprofil
+Name[de]=Vorgabeprofil

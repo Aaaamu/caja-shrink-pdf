@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Action
+Name[de_CH]=simple-compress-pdf
+Name[de]=compress-pdf-simple
+Description[de_CH]=\s
+Description[de]=\s
+ToolbarLabel[de_CH]=compress PDF
+ToolbarLabel[de]=compress PDF
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+Name[de_CH]=Vorgabeprofil
+Name[de]=Vorgabeprofil
+Exec=/usr/bin/gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=%w_compressed.%x %f
+MimeTypes=application/pdf;

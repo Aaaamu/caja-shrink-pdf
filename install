@@ -1,0 +1,5 @@
+#! /bin/bash
+
+find ./.config/ -depth | cpio -pmdv $HOME;
+find ./.local/ -depth | cpio -pmdv $HOME;
+fi
