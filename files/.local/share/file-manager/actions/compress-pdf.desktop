@@ -13,3 +13,4 @@ MimeTypes=application/pdf;
 Exec=$HOME/.local/share/file-manager/actions/compress-pdf %f
 Name[de_CH]=Vorgabeprofil
 Name[de]=Vorgabeprofil
+ExecutionMode=DisplayOutput
