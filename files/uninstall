@@ -3,5 +3,6 @@
 rm $HOME/.local/share/file-manager/actions/compress-pdf.desktop;
 rm $HOME/.local/share/file-manager/actions/simple-compress-pdf.desktop;
 rm $HOME/.local/share/file-manager/actions/secure-delete.desktop;
-rm $HOME/.config/caja/scripts/compress-pdf;
+rm $HOME/.local/share/file-manager/actions/compress-pdf;
+#rm $HOME/.config/caja/scripts/compress-pdf;
 
