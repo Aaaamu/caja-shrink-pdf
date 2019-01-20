@@ -1,0 +1,6 @@
+#! /bin/bash
+
+cd ./install;
+ls | cpio -ov -H tar -F  ../caja-pdf-shrink_1.x.tar;
+
+

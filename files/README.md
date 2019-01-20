@@ -1,4 +1,6 @@
-v1.3
+# caja-shrink-pdf v1.4
+adds right click menu entries to shrink (compress) pdf and to secure delete files
+
 by _mu
 
 TO INSTALL
@@ -25,5 +27,3 @@ into your $HOME folder
 ###
 
 THE INSTALLER SCRIPT WILL NOT OVERWRITE EXISTING FILES. IF YOU NEED TO UPDATE THE SCRIPTS USE UNINSTALL SCRIPT FIRST.
-
-
