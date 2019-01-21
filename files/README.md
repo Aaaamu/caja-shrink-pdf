@@ -1,4 +1,4 @@
-#### caja-shrink-pdf v1.5 
+#### caja-shrink-pdf v1.6
 #### adds right click menu entries to shrink (compress) pdf and to secure delete files
 #### ABSOLUTELY NO WARRANTY OR LIABILITY FOR FILE LOSS - USE TO YOUR OWN RISK. USE ONLY AFTER UNDERSTANDING WHAT IT DOES
 #### by _mu
@@ -33,3 +33,6 @@ THE INSTALLER SCRIPT WILL NOT OVERWRITE EXISTING FILES. IF YOU NEED TO UPDATE TH
 v1.5
 moved script .config/caja/scripts/compress-pdf to actions folder to avoid double appearance in context menue
 left the scripts-folder in the repo for future use
+
+v1.6 (bugfix)
+added -a to the ls command in the create_archive script
